@@ -1,0 +1,33 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    transition: background-color 0.5s;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1{
+    margin-bottom: 10px;
+}
+
+#changeColorBtn{
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+    transition: background-color 0.4s;
+}
+
+#changeColorBtn:hover{
+    background-color: rgba(241, 222, 13, 0.79)
+}
+p{
+    font-size: 10px;
+}
+
